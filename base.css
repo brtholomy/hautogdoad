@@ -1,0 +1,56 @@
+body {
+    font-family: monospace;
+    /* font-size: 1.5vmin; */
+}
+
+div.button {
+    align: center;
+    padding: 2% 2%;
+}
+
+p {
+    text-align: center;
+    font-size: 300%;
+}
+
+p.title {
+    color: #000;
+}
+
+p.button {
+    color: #fff;
+}
+
+#bartholomy {
+    background-color: #fff;
+}
+
+#book {
+    background-color: #c21818;
+}
+
+#music {
+    background-color: #18c2a1;
+}
+
+#contact {
+    background-color: #c218ac;
+}
+
+#logo {
+    background-color: #fff;
+}
+
+img#logo {
+    width: 10%;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+a:visited {
+    color: inherit;
+}
