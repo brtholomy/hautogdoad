@@ -19,6 +19,11 @@ p.button {
     color: #fff;
 }
 
+p.center_text {
+    font-size: 120%;
+    text-align: center;
+}
+
 #bartholomy {
     background-color: #fff;
 }
@@ -33,6 +38,10 @@ p.button {
 
 #about {
     background-color: #c218ac;
+}
+
+#donate {
+    background-color: #ebae34;
 }
 
 #contact {
