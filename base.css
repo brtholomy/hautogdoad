@@ -19,6 +19,10 @@ p.button {
     color: #fff;
 }
 
+p.text {
+    font-size: 120%;
+}
+
 p.center_text {
     font-size: 120%;
     text-align: center;
