@@ -5,12 +5,18 @@ body {
 
 div.bar {
     margin: 0rem 0rem;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
 }
 
 div.text {
     background-color: #fff;
     padding: 1rem 1rem;
+}
+
+div.clouds {
+    background-color: #fff;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
 }
 
 details {
@@ -133,9 +139,8 @@ img#book {
     width: 30%;
 }
 
-img#apply {
-    margin: 1rem 1rem;
-    height: 2rem;
+img#clouds {
+    width: 100%;
 }
 
 a {
