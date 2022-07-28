@@ -36,6 +36,14 @@ summary:hover {
     cursor: pointer;
 }
 
+details > summary {
+    list-style: none;
+}
+
+details > summary::marker, details > summary::-webkit-details-marker {
+    display: none;
+}
+
 h1 {
     font-size: 3rem;
     text-align: center;
