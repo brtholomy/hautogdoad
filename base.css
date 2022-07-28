@@ -6,7 +6,7 @@ body {
 
 div.bar {
     margin: 0rem 0rem;
-    padding: 1rem 2rem;
+    padding: 1rem 0.1rem;
 }
 
 div.text {
@@ -25,7 +25,7 @@ details {
 }
 
 summary {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
     list-style: none;
@@ -50,15 +50,20 @@ details summary {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     font-style: normal;
     color: #000;
 }
 
+ul {
+    margin-left: 0rem;
+    padding-left: 1rem;
+}
+
 /* redundant with summary tag. but used where no dropdown is desired. */
 p.bar {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
 }
@@ -68,7 +73,7 @@ p.center_text {
 }
 
 p.work_title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -89,7 +94,7 @@ div.action_button {
 }
 
 div.action_button p {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #fff;
 }
