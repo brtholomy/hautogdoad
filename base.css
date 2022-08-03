@@ -11,7 +11,7 @@ div.bar {
 
 div.text {
     background-color: #fff;
-    padding: 1rem 1rem;
+    padding: 1rem 0.5rem;
 }
 
 div.clouds {
@@ -20,8 +20,22 @@ div.clouds {
     padding: 0rem 0rem;
 }
 
-details {
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: normal;
     color: #000;
+}
+
+h1.studentship {
+    color: #fff;
+}
+
+/* redundant with summary tag. but used where no dropdown is desired. */
+p.fake_summary_tag {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
 }
 
 summary {
@@ -37,6 +51,10 @@ summary:hover {
     cursor: pointer;
 }
 
+details {
+    color: #000;
+}
+
 details summary::-webkit-details-marker {
     display: none;
 }
@@ -49,23 +67,9 @@ details summary {
     list-style: none;
 }
 
-h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-style: normal;
-    color: #000;
-}
-
 ul {
     margin-left: 0rem;
     padding-left: 1rem;
-}
-
-/* redundant with summary tag. but used where no dropdown is desired. */
-p.bar {
-    font-size: 1.5rem;
-    text-align: center;
-    color: #fff;
 }
 
 p.center_text {
@@ -170,4 +174,23 @@ a {
 a.unhighlight {
     color: inherit;
     text-decoration: none;
+}
+
+/* tablets and up */
+@media only screen and (min-device-width: 700px){
+    h1.studentship {
+        font-size: 3rem;
+    }
+    div.bar {
+        padding: 1rem 1rem;
+    }
+    div.text {
+        padding: 1rem 1rem;
+    }
+    img#album {
+        width: 30%;
+    }
+    img#book {
+        width: 20%;
+    }
 }
