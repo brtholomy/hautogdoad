@@ -1,6 +1,11 @@
+html {
+    /* all rem calculations references this */
+    font-size: 16px;
+}
+
 body {
     font-family: "Courier", courier, monospace;
-    font-size: 13pt;
+    font-size: 1rem;
     letter-spacing: -0.03rem;
 }
 
@@ -167,14 +172,17 @@ a.unhighlight {
 
 /* tablets and up */
 @media only screen and (min-device-width: 700px){
+    body {
+        letter-spacing: 0rem;
+    }
     h1.studentship {
         font-size: 3rem;
     }
     div.bar {
-        padding: 1rem 1rem;
+        padding: 1rem 2rem;
     }
     div.text {
-        padding: 1rem 1rem;
+        padding: 1rem 2rem;
     }
     img#album {
         width: 30%;
