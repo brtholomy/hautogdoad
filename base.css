@@ -86,11 +86,6 @@ p.work_title#unreleased {
     text-decoration: underline;
 }
 
-p.attribution {
-    font-size: 0.8rem;
-    text-align: center;
-}
-
 div.action_button {
     margin: 0% 30%;
     padding: 0.5rem 0.5rem;
@@ -101,12 +96,6 @@ div.action_button p {
     font-size: 1.2rem;
     text-align: center;
     color: #fff;
-}
-
-div.form_text {
-    background-color: #ddd;
-    margin: 0% 5%;
-    padding: 0.5rem 0.5rem;
 }
 
 /* color bars */
