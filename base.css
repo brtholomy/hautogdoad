@@ -7,11 +7,12 @@ body {
     font-family: "Courier", courier, monospace;
     font-size: 1rem;
     letter-spacing: -0.03rem;
+    margin: 0rem 0rem;
 }
 
 div.bar {
     margin: 0rem 0rem;
-    padding: 1rem 0.1rem;
+    padding: 1rem 0rem;
 }
 
 div.text {
