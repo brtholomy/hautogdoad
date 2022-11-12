@@ -19,7 +19,7 @@ div.text {
     padding: 1rem 0.5rem;
 }
 
-div.clouds {
+div.studentship_border {
     background-color: #fff;
     margin: 0rem 0rem;
     padding: 0rem 0rem;
@@ -155,7 +155,7 @@ img#book {
     width: 30%;
 }
 
-img#clouds {
+img#studentship_border {
     width: 100%;
 }
 
