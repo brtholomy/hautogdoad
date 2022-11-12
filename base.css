@@ -19,8 +19,12 @@ div.text {
     padding: 1rem 0.5rem;
 }
 
+/* ugly hack : CSS priority rules... */
+div.text.black-bg {
+    background-color: #2c2222;
+}
+
 div.studentship_border {
-    background-color: #fff;
     margin: 0rem 0rem;
     padding: 0rem 0rem;
 }
@@ -30,10 +34,6 @@ h1 {
     text-align: center;
     font-style: normal;
     color: #000;
-}
-
-h1.studentship {
-    color: #fff;
 }
 
 /* redundant with summary tag. but used where no dropdown is desired. */
@@ -103,7 +103,7 @@ div.action_button p {
     color: #fff;
 }
 
-/* color bars */
+/* color bar ids */
 
 #bartholomy {
     background-color: #fff;
@@ -137,11 +137,31 @@ div.action_button p {
     background-color: #fff;
 }
 
-#black {
-    background-color: #000;
+/* end color bars */
+
+/* general color classes */
+
+.black-bg {
+    background-color: #2c2222;
 }
 
-/* end color bars */
+.white-bg {
+    background-color: #fff;
+}
+
+.black-color {
+    color: #2c2222;
+}
+
+.white-color {
+    color: #fff;
+}
+
+.yellow-color {
+    color: #ebae34;
+}
+
+/* end general color classes */
 
 img#logo {
     width: 10%;
@@ -155,7 +175,7 @@ img#book {
     width: 30%;
 }
 
-img#studentship_border {
+img#hexagons_img {
     width: 100%;
 }
 
