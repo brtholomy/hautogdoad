@@ -104,6 +104,12 @@ div.action_button p {
     color: #fff;
 }
 
+hr.divider {
+    width: 60%;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
 /* color bar ids */
 
 #bartholomy {
