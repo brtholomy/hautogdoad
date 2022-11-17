@@ -124,7 +124,9 @@ hr.divider {
 }
 
 #about {
-    background-color: rgb(100,170,30);
+    background-color: #20c0d0;
+    /* previously green. takes the blue until music is back */
+    /* background-color: #64aa1e; */
 }
 
 #donate {
