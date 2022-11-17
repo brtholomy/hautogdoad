@@ -37,14 +37,9 @@ h1 {
     color: #000;
 }
 
-/* redundant with summary tag. but used where no dropdown is desired. */
-p.fake_summary_tag {
-    font-size: 1.5rem;
-    text-align: center;
-    color: #fff;
-}
-
-summary {
+/* redundant, but the div is used where no dropdown is desired. */
+/* simulates summary tag to wrap the div in the <a> */
+summary, div.fake_summary_tag {
     font-size: 1.5rem;
     text-align: center;
     color: #fff;
@@ -52,7 +47,7 @@ summary {
     padding: 1em 0em 1em 0em;
 }
 
-summary:hover {
+summary:hover, div.fake_summary_tag:hover {
     color: #444;
     cursor: pointer;
 }
