@@ -16,13 +16,7 @@ div.bar {
 }
 
 div.text {
-    background-color: #fff;
     padding: 1rem 0.5rem;
-}
-
-/* ugly hack : CSS priority rules... */
-div.text.brown-bg {
-    background-color: #2c2222;
 }
 
 div.studentship_border {
@@ -152,27 +146,27 @@ hr.divider {
 
 /* general color classes */
 
-.black-bg {
+.black_bg {
     background-color: #000;
 }
 
-.brown-bg {
+.brown_bg {
     background-color: #2c2222;
 }
 
-.white-bg {
+.white_bg {
     background-color: #fff;
 }
 
-.black-color {
+.brown_color {
     color: #2c2222;
 }
 
-.white-color {
+.white_color {
     color: #fff;
 }
 
-.yellow-color {
+.yellow_color {
     color: #ebae34;
 }
 
