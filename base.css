@@ -102,37 +102,37 @@ hr.divider {
 
 /* color bar ids */
 
-#bartholomy {
+.bar#bartholomy {
     background-color: #fff;
 }
 
-#studentship {
+.bar#studentship {
     background-color: #c21818;
 }
 
-#writing {
+.bar#writing {
     background-color: #503020;
 }
 
-#music {
+.bar#music {
     background-color: #20c0d0;
 }
 
-#about {
+.bar#about {
     background-color: #20c0d0;
     /* previously green. takes the blue until music is back */
     /* background-color: #64aa1e; */
 }
 
-#donate {
+.bar#donate {
     background-color: #ebae34;
 }
 
-#contact {
+.bar#contact {
     background-color: #000;
 }
 
-#logo {
+.bar#logo {
     background-color: #fff;
 }
 
@@ -156,6 +156,10 @@ hr.divider {
 
 .white_bg {
     background-color: #fff;
+}
+
+.yellow_bg {
+    background-color: #ebae34;
 }
 
 .brown_color {
