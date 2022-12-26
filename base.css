@@ -21,7 +21,7 @@ div.text {
 }
 
 /* ugly hack : CSS priority rules... */
-div.text.black-bg {
+div.text.brown-bg {
     background-color: #2c2222;
 }
 
@@ -34,7 +34,12 @@ h1 {
     font-size: 1.5rem;
     text-align: center;
     font-style: normal;
-    color: #000;
+}
+
+h2.email {
+    font-size: 1.1rem;
+    text-align: center;
+    font-style: normal;
 }
 
 /* redundant, but the div is used where no dropdown is desired. */
@@ -71,10 +76,6 @@ details summary {
 ul {
     margin-left: 0rem;
     padding-left: 1rem;
-}
-
-p.center_text {
-    text-align: center;
 }
 
 p.work_title {
@@ -143,9 +144,19 @@ hr.divider {
 
 /* end color bars */
 
+/* general classes */
+
+.center_text {
+    text-align: center;
+}
+
 /* general color classes */
 
 .black-bg {
+    background-color: #000;
+}
+
+.brown-bg {
     background-color: #2c2222;
 }
 
@@ -183,6 +194,15 @@ img#hexagons_img {
     width: 100%;
 }
 
+img#irin_logo {
+    width: 20%;
+}
+
+img.portfolio {
+    width: 80%;
+    margin: 1rem 0rem;
+}
+
 a {
     color: blue;
     text-decoration: underline;
@@ -199,7 +219,7 @@ a.unhighlight {
     body {
         letter-spacing: 0rem;
     }
-    h1.studentship {
+    h1 {
         font-size: 3rem;
     }
     div.bar {
